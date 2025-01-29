@@ -2,6 +2,8 @@
 	import Footer from './footer.svelte';
 	import Header from './header.svelte';
 	import PageTransition from './transition.svelte';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
 	import 'open-props/style';
 	import 'open-props/normalize';
@@ -9,6 +11,9 @@
 	import '../app.css';
 
 	let { children, data } = $props();
+
+	injectAnalytics();
+	injectSpeedInsights();
 </script>
 
 <div class="layout">
