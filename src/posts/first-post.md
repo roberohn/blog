@@ -1,19 +1,14 @@
 ---
 title: First post
-description: First post.
-date: '2025-01-24'
+description: First post for this new blog on the interwebs.
+date: '2025-01-29'
 categories:
-  - sveltekit
+  - blog
   - svelte
 published: true
 ---
 
-## Markdown
+## The blog
 
-Hey friends! 👋🏻
-
-```ts
-function greet(name: string) {
-  console.log(`Hey ${name}! 👋🏻`)
-}
-```
+This is my first blog, I really enjoyed learning how to build it and I need to thank [joyofcode](https://joyofcode.xyz/sveltekit-markdown-blog) where the guide is just perfect for first timers.
+It's built using SvelteKit which is my favourite framework to develop on. I'll start adding more to this over the weeks and months ahead.

@@ -9,8 +9,8 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<h1>Welcome to Blog</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>Welcome to a blog</h1>
+<p>Enjoy your stay</p>
 
 <section>
 	<ul class="posts">

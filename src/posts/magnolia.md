@@ -1,0 +1,16 @@
+---
+title: Magnolia
+description: New single from Deafheaven dropped 🫳🏻
+date: '2025-01-29'
+categories:
+  - Deafheaven
+published: true
+---
+
+## Magnolia
+
+I'm a massive fan of Deafheaven and they're regularly in the top of my Apple Music Replay. Their new single Magnolia just dropped this week and it's a banger.
+After 4 years they have a new album out due 28th March and I cannot wait for its release. If you're into shoegaze and metal check 'em out.
+
+<br>
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ca/album/lonely-people-with-power/1792077173"></iframe>
