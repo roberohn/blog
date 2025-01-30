@@ -3,7 +3,7 @@ title: Automating OOO Replies
 description: How I created a set-and-forget automation with my out of office replies.
 date: '2025-01-30'
 categories:
-  - Automation
+  - automation
 published: false
 ---
 
