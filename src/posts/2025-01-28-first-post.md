@@ -1,7 +1,7 @@
 ---
 title: First post
 description: First post for this new blog on the interwebs.
-date: '2025-01-29'
+date: '2025-01-28'
 categories:
   - blog
   - svelte

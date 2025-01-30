@@ -12,9 +12,9 @@
 		<li>
 			<a href="/about">About</a>
 		</li>
-		<li>
+		<!-- <li>
 			<a href="/contact">Contact</a>
-		</li>
+		</li> -->
 		<li>
 			<a href="/rss.xml" target="_blank">RSS</a>
 		</li>
