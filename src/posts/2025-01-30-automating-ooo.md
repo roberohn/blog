@@ -7,7 +7,7 @@ categories:
 published: false
 ---
 
-## Automating Out Of Office Replies
+### Set and forget
 
 I got tired of setting my out of office when I was going on any planned annual leave. Having to turn it on and set a message was tedious and I wondered if there was a method to automate it.
 <br>
