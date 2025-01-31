@@ -7,4 +7,6 @@ categories:
 published: true
 ---
 
+### 🚴🏻‍♂️
+
 <img src="./thursday-rides/thursday-rides-matter.jpeg" alt="A still of ladies riding bikes from the Queen song Bicycle Race">
