@@ -10,17 +10,20 @@ published: true
 ### 📅
 
 During previous projects involving SQL data analysis, I've encountered situations where filtering data by fiscal year was necessary.
-
+<br>
 I sought to develop a self-maintaining table that would automatically manage dates and columns, with the ability to update itself annually without too much manual intervention.
-
+<br><br>
 To address this need, I created a script that successfully met these requirements.
+<br><br>
 
-```
-DECLARE @d DATE = CONCAT(YEAR(GETDATE()),'-04-01'); -- Set to the start of your fiscal year
+```sql
+-- Set to the start of your fiscal year
+DECLARE @d DATE = CONCAT(YEAR(GETDATE()),'-04-01');
 
 WITH [x]
 AS (
-    SELECT TOP (52) ROW_NUMBER() OVER (ORDER BY [object_id]) - 1 AS [n] -- Adjust this if there are more than 52 weeks in a year
+    -- Adjust this if there are more than 52 weeks in a year
+    SELECT TOP (52) ROW_NUMBER() OVER (ORDER BY [object_id]) - 1 AS [n]
     FROM [sys].[all_objects]
     ORDER BY [object_id]
 )
@@ -49,8 +52,13 @@ FROM [x]
 ORDER BY [n];
 ```
 
+<br>
+
+> I need to fix the code block 🤦🏻‍♂️
+
+<br>
 I acknowledge this script has limitations. It assumes 1st April, as the fiscal year start date, so modifications would be necessary for organizations with different fiscal calendars. Furthermore, the current implementation accommodates a standard 52-week year, not accounting for years that occasionally contain 53 weeks.
-
+<br><br>
 Ideally, I'd prefer developing a more robust solution that eliminates the need to manually adjust for fiscal year start dates or varying week counts, allowing for complete automation. Addressing the 52/53 week variation seems particularly achievable.
-
+<br><br>
 When time permits, I plan to revisit and enhance this script, with a priority on resolving at least the week count variability issue.
