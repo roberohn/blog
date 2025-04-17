@@ -34,7 +34,7 @@ Once you've created the event and the condition you'll next want to set automati
 For extra flair I wanted the auto reply include a date when I will return from annual leave. Fortunately this can be done dynamically with the formatDateTime() function.
 <br>
 <br>
-We need to format addToTime() as without it you'll get a standard javascript fomatted date which doesn't look great on auto-reply emails. Something more familar is needed.
+We need to format addToTime() as without it you'll get a standard JavaScript fomatted date which doesn't look great on auto-reply emails. Something more familar is needed.
 <br>
 <br>
 <img src="./automating-ooo/ooo-5.png" alt="">

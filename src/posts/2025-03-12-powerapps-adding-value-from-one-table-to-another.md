@@ -33,11 +33,11 @@ Initially, I experimented with several JavaScript approaches, but encountered im
 
 <img src="./powerapps-adding-value-from-one-table-to-another/pa-00002.png" alt="Here we're showing the selections I've used to update a value on a field based on the selection of a lookup field">
 
-#### Configure the Update Action:
-   - Enter a clear description of what this step accomplishes
-   - Select the entity you want to update
-   - Click "Set Properties" to access the form layout
-   - **Set Value Mappings**: In the properties window, select the target field and configure the operator settings to specify exactly which related value should be pulled when the lookup changes.
+#### Configure the Update Action
+  - Enter a clear description of what this step accomplishes
+  - Select the entity you want to update
+  - Click "Set Properties" to access the form layout
+  - **Set Value Mappings**: In the properties window, select the target field and configure the operator settings to specify exactly which related value should be pulled when the lookup changes.
 
 <img src="./powerapps-adding-value-from-one-table-to-another/pa-00003.png" alt="In the form we're showing the operation that needs to be performed on the selected field">
 

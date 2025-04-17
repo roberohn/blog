@@ -29,7 +29,7 @@ AS (
 )
 -- Remove commented lines when ready to insert the data into the desired table.
 --INSERT INTO [dbo].[FiscalYear] (
---	[Week]
+--    [Week]
 --   ,[Month]
 --   ,[Year]
 --   ,[FiscalYear]
