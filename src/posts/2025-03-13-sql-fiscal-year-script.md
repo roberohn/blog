@@ -7,7 +7,7 @@ categories:
 published: true
 ---
 
-### 📅
+### Financial Year Records
 
 During previous projects involving SQL data analysis, I've encountered situations where filtering data by fiscal year was necessary.
 <br>
@@ -51,10 +51,6 @@ SELECT DATEADD(WEEK, [n], @d) AS [WeekStartDate]
 FROM [x]
 ORDER BY [n];
 ```
-
-<br>
-
-> I need to fix the code block 🤦🏻‍♂️
 
 <br>
 I acknowledge this script has limitations. It assumes 1st April, as the fiscal year start date, so modifications would be necessary for organizations with different fiscal calendars. Furthermore, the current implementation accommodates a standard 52-week year, not accounting for years that occasionally contain 53 weeks.
