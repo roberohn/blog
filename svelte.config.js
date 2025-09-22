@@ -18,7 +18,7 @@ const mdsvexOptions = {
 				themes: ['poimandres'],
 				langs: ['javascript', 'typescript', 'sql']
 			});
-			await highlighter.loadLanguage('javascript', 'typescript', 'sql');
+			await highlighter.loadLanguage('javascript', 'typescript', 'sql', 'powershell');
 			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'poimandres' }));
 			return `{@html \`${html}\` }`;
 		}
