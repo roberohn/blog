@@ -17,7 +17,7 @@ I have an o365 account for work which includes PowerAutomate which I thought  wa
 I started by creating a flow that would check for any upcoming calendar events with the keyword “holiday” within it. Employees request annual leave through HR software which is then approved or rejected by a manager. Departmental calendars can be added to employees email clients which synchronises approved annual leave automatically.
 <br>
 <br>
-<img src="/automating-ooo/ooo-1.png" alt="Image showing the original flow of this automated process.">
+<img src="/automating-ooo/ooo-1.png" alt="Original flow of this automated process.">
 <br>
 <img src="/automating-ooo/ooo-2.png" alt="Here we define the calendar we want to monitor, the look-ahead time which I've set to 15 and how often we want to check for items which is set to 5 minutes.">
 <br>
