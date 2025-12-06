@@ -1,5 +1,5 @@
 ---
-title: Automatic Windows Update via PowerShell & GPO
+title: Automatic Windows Update via PowerShell &amp; GPO
 description: Simple and rudimentary script to update Windows on a set schedule.
 date: '2025-09-22'
 categories:
@@ -94,7 +94,7 @@ For most Windows setups you'll set this is the program path.<br><br>
 Then in the "Add arguments" box input:<br><br>
 
 ```powershell
--ExecutionPolicy Bypass -command "& C:\PowerShellScripts\installWindowsUpdateModule.ps1"
+-ExecutionPolicy Bypass -command "&amp; C:\PowerShellScripts\installWindowsUpdateModule.ps1"
 ```
 
 <br><br>
